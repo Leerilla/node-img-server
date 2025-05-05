@@ -41,7 +41,7 @@ app.get("/image/:name",(req,res)=>{
 });
 
 
-app.listen(80,()=>{
+app.listen(3000,()=>{
     const dir = './uploads';
     if(!fs.existsSync(dir)){
         fs.mkdirSync(dir);
